@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Новая привычка"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_habit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:hint="Название (например, Бег по утрам)"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/edit_habit_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание (необязательно)"
+        android:inputType="textCapSentences" />
+
+</LinearLayout>

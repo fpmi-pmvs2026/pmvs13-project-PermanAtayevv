@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HabitBoost</string>
+    <string name="title_home">Привычки</string>
+    <string name="title_stats">Статистика</string>
+</resources>
